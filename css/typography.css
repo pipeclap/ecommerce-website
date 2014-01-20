@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+   Colour Palette
+    -Dark gray: #424242   rgb(66,66,66)
+    -Cyan: #00E9F4   rgb(0,233,244)
+    -Blue: #0D12B3   rgb(13,18,179)
+    -Light gray: #827B7B   rgb(130,123,123)
+    -Aqua: #3E88AD   rgb(62,136,173)
+   
+   Font Family
+   -font family: 'Wire One', sans serif;
+   -font family: 'Audiowide', cursive;
+   -font family: 'Pathway Gothic One', sans serif;
+ */
+  
+html {
+ 	font: normal 100%/1.5 Gotham, "Helvetica Neue", Helvetica, Arial, sans serif; /* 16px/24px */
+ 	color: #424242;
+ }
+ 
+
+ ::selection {
+ 	background-color: #00E9F4; /* changes the highlight colour when the user selects */
+ 	color: #FFFFFF; /* changes the font color */
+ }
+ 
+ a,
+ a:link{
+ 	color: #0D12B3;
+ 	text-decoration: none;
+ 	border-bottom: 0.1em solid rgb(0,233,244); 
+ 	transition: all 200ms linear; /* makes it fade between colour*/
+ }
+ 
+ a:visited {
+ 	color: #0D12B3;
+ 	border-bottom-color: #00E9F4;
+ }
+ 
+ a:hover,
+ a:focus, 
+ a:active {
+ 	color: #827B7B;
+ 	border-bottom-color: rgb(13,18,179);
+ }
+ 
+
+ h1, h2, h3, h4, h5, h6,
+ p, ul, ol, dl,
+ blockquote, table, hr {
+   margin: 0 0 0.5rem;
+ }
+ 
+ .yotta {
+   font-size: 4.7684rem;
+   line-height: 1.2583;
+ }
+ 
+ .zetta {
+   font-size: 3.8147rem;
+   line-height: 1.1796;
+ }
+ 
+ h1, .exa {
+   font-family: 'Audiowide', cursive;
+   font-size: 3.0518rem;
+   line-height: 1.4746;
+ }
+ 
+ h2, .peta {
+   font-family: 'Audiowide', cursive;
+   font-size: 2.4414rem;
+   line-height: 1.2288;
+ }
+ 
+ h3, .tera {
+   font-family: 'Audiowide', cursive;
+   font-size: 1.9531rem;
+   line-height: 1.5360;
+ }
+ 
+ h4, .giga {
+   font-family: 'Audiowide', cursive;
+   font-size: 1.5625rem;
+   line-height: 1.9200;
+ }
+ 
+ h5, .mega {
+   font-family: 'Pathway Gothic One', sans serif;
+   font-size: 1.2500rem;
+   line-height: 1.2000;
+ }
+ 
+ h6, .kilo {
+   font-family: 'Pathway Gothic One', sans serif;
+   font-size: 1.0000rem;
+   line-height: 1.5000;
+ }
+ 
+ small, .milli {
+   font-family: 'Wire One', sans serif;
+   font-size: 0.8000rem;
+   line-height: 1.8750;
+ }
+ 
+ .micro {
+   font-family: 'Wire One', sans serif;
+   font-size: 0.6400rem;
+   line-height: 2.3438;
+ }
+ 
+ /* END of all sizes */
+ 
+ /* BULLETS customized */
+ 
+ ul{
+ 	list-style-type: none; /* Get rid of the bullets*/
+ 	position: relative;
+ }
+ 
+ li{
+ 	font-family: 'Pathway Gothic One', sans serif;
+ 	position: relative;
+ }
+ 
+ ul li:before {
+ 	content: "◊ "; /* opt shift 9=small, opt 8= bigger, or put a special character from the compter*/
+ 	color: #424242;
+ 	position: absolute; /* To change the position of bullets*/ 	
+	text-align: right;
+	left:  -1em;
+ }
+ 
+.table-table thead{
+	 background-color: #0D12B3;
+	 color: #827B7B;
+ }
+ 
+.table-table{
+	 margin-bottom: 2rem;
+	 width: 90%;
+	 margin-right: 5%;
+	 position: relative;
+ }
+ 
+.table-table th,
+.table-table td{
+ 	text-align: center;
+ }
+ 
+.table-list li{
+	 margin: 1em 0;
+	 line-height: 1.3;
+	 text-align: center;
+ }
+ 
+.table-list dt{
+	 font-weight: bold;
+	 color: #3E88AD;
+ }
+.table-list dd:last-child{
+	 color: #3E88AD;
+	 font-style: italic;
+	 font-size: 0.875rem;
+	 text-align: center;
+ } 
+
