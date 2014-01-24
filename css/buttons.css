@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn, /* Target all three to have them all stylized */
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75rem 1em;
+	background-color: #793284;
+	background-image: linear-gradiant(to bottom, #793284, #571062);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited{
+	background-color:#5D8432;
+	background-image:linear-gradient(to bottom, #5d8432, #3b6210);
+}
