@@ -15,9 +15,38 @@
 	border: 0;
 }
 
-.btn-alt,
+.btn-alt, /* Remember to Target all three to have them all stylized and working*/
 .btn-alt:link,
-.btn-alt:visited{
-	background-color:#5D8432;
-	background-image:linear-gradient(to bottom, #5d8432, #3b6210);
+.btn-alt:visited {
+	background-color: #5d8432;
+	background-image: linear-gradiant(to bottom, #5d8432, #3b6210);
+}
+
+
+.btn-firstbotton, /* Target all three to have them all stylized */
+.btn-firstbotton:link,
+.btn-firstbotton:visited {
+	display: inline-block;
+	padding: 0.75rem 1em;
+	background-color: #B6B6B6;
+	background-image: linear-gradiant(to bottom, #373333, red);
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #000000;
+	font-weight: bold;
+	border: 0;
+}
+
+.btn-secondbotton, 
+.btn-secondbotto:link,
+.btn-secondbotton:visited {
+	display: inline-block;
+	padding: 0.75rem 1em;
+	background-color: #91CB85;
+	background-image: linear-gradiant(to bottom, rede, red);
+	border-radius: 30px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
 }
