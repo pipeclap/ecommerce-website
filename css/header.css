@@ -1,3 +1,107 @@
 @charset "UTF-8";
-/* CSS Document */
+/* Responsive Setup */
+
+nav {
+  background: #0078bb;
+  margin-top: 40px;
+}
+nav h1 {
+  display: none;
+}
+nav ul {
+  border-left: 1px solid #005788;
+  border-right: 1px solid #0099ee;
+  display: box;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: hidden;
+  padding: 0;
+}
+nav ul li {
+  box-flex: 1;
+}
+nav ul li a {
+  border-left: 1px solid #0099ee;
+  border-right: 1px solid #005788;
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #005788;
+}
+@media only screen and (max-width: 600px) {
+  nav h1 {
+    border-bottom: 1px solid #0099ee;
+    color: #fff;
+    display: block;
+    font: italic 16px serif;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 12px 0;
+    text-align: center;
+    width: 96%;
+  }
+  nav h1:hover + ul,
+  nav h1 + ul:hover {
+    max-height: 300px;
+  }
+  nav ul {
+    display: block;
+    max-height: 0;
+    transition: max-height 200ms;
+  }
+  nav ul li a {
+    padding-left: 12px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 25em){
+	.logo{
+		float:left;
+		width: 20rem;
+		margin: 1rem 30rem 0 6rem;
+	}
+}
+
+@media only screen and (min-width: 35em){
+	.logo{
+	float:left;
+	width: 25rem;
+	margin: 1rem 50rem 0 5rem;
+	}
+	
+}
+
+@media only screen and (min-width: 40em){
+	.logo{
+	float:left;
+	width: 30rem;
+	margin: 1rem 30rem 0 6rem;
+	}
+	
+}
+
+@media only screen and (min-width: 50em){
+	.logo{
+	float:left;
+	width: 40rem;
+	margin: 1rem 30rem 0 15rem;
+	}
+	
+}
+
+@media only screen and (min-width: 75em){
+	.logo{
+	float:left;
+	width: 50rem;
+	margin: 1rem 20rem 0 20rem;
+	}
+
+}
 
