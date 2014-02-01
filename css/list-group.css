@@ -1,18 +1,18 @@
 @charset "UTF-8";
-/* CSS Document */
+/* List Group CSS Document */
+
 .list-group{
 	list-style-type: none;
 }
 
-.list-group-item:before {
-	content: ""; /*dissapear bullets*/
+.list-group-item:before{
+	content: "";
 }
 
-.list-group-item {
-	display: block; /*display under each other*/
+.list-group-item{
+	display: block;
 }
 
-.list-group-item-inline {
-	display: inline-block; /*display besides each other*/
+.list-group-item-inline{
+	display: inline-block;
 }
-
