@@ -4,7 +4,7 @@
 
 
 nav {
-  background: #fff;
+	background-image: url(../images/soccerballs/bluebar.jpg);
 }
   
 nav h4 {
@@ -24,8 +24,8 @@ nav ul li {
   box-flex: 1;
 }
 nav ul li a {
-  border-left: 1px solid #0099ee;
-  border-right: 1px solid #005788;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #fff;
   color: #000;
   display: block;
   line-height: 20px;
@@ -38,7 +38,7 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 600px) {
   nav h4 {
-    border-bottom: 1px solid #0099ee;
+    border-bottom: 1px solid #fff;
     color: #fff;
     display: block;
     line-height: 20px;
@@ -91,8 +91,8 @@ nav ul li a:hover {
 @media only screen and (min-width: 50em){
 	.logo{
 	float:left;
-	width: 40rem;
-	margin: 1rem 30rem 0 15rem;
+	width: 15rem;
+	margin: 4rem 0rem 0 4rem;
 	}
 	
 }
