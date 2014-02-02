@@ -1,3 +1,63 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+  width: 100%;
+  margin-top: 45vh;
+  text-align: center;
+}
+.wrapper{
+  position: relative;
+  top: 10px;
+}
+.icons {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.socialmedia {
+  display: inline-block;
+  position: relative;
+  background-color: steelblue;
+  background-image: url('http://donaldlee.me/images/socialmedia20.png');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  margin-left: -15px;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.socialmedia:hover{
+  cursor: pointer;
+  margin: 0 20px 0 5px;
+  box-shadow: 0 2px 10px 1px #555;
+  background-color: #3F75A2;
+  -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
 
+}
+#github {
+  background-position: 0px center; 
+  background-color: #F8441C; 
+}
+#linkedin {
+  background-position: -80px center;
+  background-color: #3B6BE5;
+}
+#twitter {
+  background-position: -160px center;
+  background-color: #2BBBEF;
+}
+#instagram {
+  background-position: -240px center;
+  background-color: #CE39C8;
+}
+#codepen {
+  background-position: -320px center;
+  background-color: #96D51E;
+}
