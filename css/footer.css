@@ -2,7 +2,7 @@
 /* CSS Document */
 body {
   width: 100%;
-  margin-top: 45vh;
+  margin-top: 8rem;
   text-align: center;
 }
 .wrapper{
@@ -60,4 +60,13 @@ transform: rotate(360deg);
 #codepen {
   background-position: -320px center;
   background-color: #96D51E;
+}
+
+.copyright {
+	margin: 4rem;
+}
+
+footer {
+	background-color: #FAE28C;
+	padding: 30px;
 }
