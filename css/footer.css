@@ -67,6 +67,6 @@ transform: rotate(360deg);
 }
 
 footer {
-	background-color: #FAE28C;
+	background-image: url(../images/soccerballs/bluebar.jpg);
 	padding: 30px;
 }
