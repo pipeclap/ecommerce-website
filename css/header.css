@@ -11,8 +11,6 @@ nav h4 {
   display: none;
 }
 nav ul {
-  border-left: 1px solid #005788;
-  border-right: 1px solid #0099ee;
   display: box;
   list-style: none;
   margin: 0 auto;
@@ -24,8 +22,6 @@ nav ul li {
   box-flex: 1;
 }
 nav ul li a {
-  border-left: 1px solid #FFFFFF;
-  border-right: 1px solid #fff;
   color: #000;
   display: block;
   line-height: 20px;
