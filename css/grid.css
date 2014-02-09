@@ -1,3 +1,7 @@
+.gutter {
+	margin: 1rem;
+}
+
 .grid{
 	border: 1px solid red;
 	overflow: hidden;

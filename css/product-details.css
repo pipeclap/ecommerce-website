@@ -1,3 +1,172 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+ 	font: normal 100%/1.5 Gotham, "Helvetica Neue", Helvetica, Arial, sans serif; /* 16px/24px */
+ 	color: #424242;
+ }
+ 
+/* TYPO */
+ ::selection {
+ 	background-color: #00E9F4; /* changes the highlight colour when the user selects */
+ 	color: #FFFFFF; /* changes the font color */
+ }
+ 
+ a,
+ a:link{
+ 	color: #0D12B3;
+ 	text-decoration: none;
+ 	border-bottom: 0.1em solid rgb(0,233,244); 
+ 	transition: all 200ms linear; /* makes it fade between colour*/
+ }
+ 
+ a:visited {
+ 	color: #fff;
+ 	border-bottom-color: #00E9F4;
+ }
+ 
+ a:hover,
+ a:focus, 
+ a:active {
+ 	color: #827B7B;
+ 	border-bottom-color: rgb(13,18,179);
+ }
+ 
+
+ h1, h2, h3, h4, h5, h6,
+ p, ul, ol, dl,
+ blockquote, table, hr {
+   margin: 0 0 0.5rem;
+ }
+ 
+ .yotta {
+   font-size: 4.7684rem;
+   line-height: 1.2583;
+ }
+ 
+ .zetta {
+   font-size: 3.8147rem;
+   line-height: 1.1796;
+ }
+ 
+ h1, .exa {
+   font-family: 'Audiowide', cursive;
+   font-size: 3.0518rem;
+   line-height: 1.4746;
+ }
+ 
+ h2, .peta {
+   font-family: 'Audiowide', cursive;
+   font-size: 2.4414rem;
+   line-height: 1.2288;
+ }
+ 
+ h3, .tera {
+   font-family: 'Audiowide', cursive;
+   font-size: 1.9531rem;
+   line-height: 1.5360;
+   text-align: center;
+ }
+ 
+ h4, .giga {
+   font-family: 'Audiowide', cursive;
+   font-size: 1.5625rem;
+   line-height: 1.9200;
+ }
+ 
+ h5, .mega {
+   font-family: 'Pathway Gothic One', sans serif;
+   font-size: 1.2500rem;
+   line-height: 1.2000;
+ }
+ 
+ h6, .kilo {
+   font-family: 'Pathway Gothic One', sans serif;
+   font-size: 1.0000rem;
+   line-height: 1.5000;
+ }
+ 
+ small, .milli {
+   font-family: 'Wire One', sans serif;
+   font-size: 0.8000rem;
+   line-height: 1.8750;
+ }
+ 
+ .micro {
+   font-family: 'Wire One', sans serif;
+   font-size: 0.6400rem;
+   line-height: 2.3438;
+ }
+ 
+ /* END of all sizes */
+ 
+ /* BULLETS customized */
+ 
+ ul{
+ 	list-style-type: none; /* Get rid of the bullets*/
+ 	position: relative;
+ }
+ 
+ li{
+ 	font-family: 'Pathway Gothic One', sans serif;
+ 	position: relative;
+ }
+ 
+ ul li:before {
+ 	content: "◊ "; /* opt shift 9=small, opt 8= bigger, or put a special character from the compter*/
+ 	color: #424242;
+ 	position: absolute; /* To change the position of bullets*/ 	
+	text-align: right;
+	left:  -1em;
+ }
+ 
+ /* END of Typo */
+ 
+ /* GRID */
+ .gutter {
+	margin: 1rem;
+}
+
+.grid{
+	overflow: hidden;
+}
+
+.unit{
+	background-color: #fff;
+	float: left;
+}
+
+.unit-s-1{
+	width: 100%;
+}
+
+/* END of GRID */
+
+@media only screen and (min-width:30em){
+	
+	.unit-m-1-3{
+		width: 33.3333%;
+	}
+	
+	.unit-m-1{
+		width: 100%
+	}
+	
+	.unit-m-1-2{
+		width: 50%
+	}
+}
+
+@media only screen and (min-width:50em){
+	
+	.unit-l-1{
+		width: 100%;
+	}
+	.unit-l-1-2{
+		width: 50%;
+	}
+	.unit-l-1-3{
+		width: 33.3333%;
+	}
+	
+}
