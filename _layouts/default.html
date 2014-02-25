@@ -7,7 +7,7 @@
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link href='http://fonts.googleapis.com/css?family=Wire+One|Audiowide|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
-		<link href="{{site.baseurl}}/css/.css" rel="stylesheet">
+		<link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
@@ -18,5 +18,36 @@
 		<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
 	</head>
+<body>
+	<header>
+		<input class="search" type=search results=5 name=s>
+		<img src="../images/logo/logo.svg" class="logo" alt="soccer balls.com logo">
+		<nav>
+			<ul class="mega">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop By Brand</a></li>
+				<li><a href="#">Shop by size</a></li>
+				<li><a href="#">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+ {{content}}
+
+	<footer>
+		<h4>Follow US</h4>
+		<div class="wrapper">
+		  <div class="icons"> 
+			<span class="socialmedia" id="github"></span>
+			<span class="socialmedia" id="linkedin"> </span>
+			<span class="socialmedia" id="twitter"></span>
+			<span class="socialmedia" id="instagram"></span>
+			<span class="socialmedia" id="codepen"></span>
+		  </div>
+		</div>
+		<div class="copyright mega">
+			<p>Copyright © 2014 Soccer Balls. All rights reserved.</p>
+	</footer>
+
 </body>
 </html>
