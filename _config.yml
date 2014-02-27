@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /ecommerce-website/styleguide/
 exclude: ['README.md']
+permalink: pretty
