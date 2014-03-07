@@ -21,8 +21,8 @@
 			<ul class="mega">
 				<li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a> 
 				<li><a href="#">Shop By Brand</a></li>
-				<li><a href="{{site.baseurl}}/thankyou/">Thank you</a></li>
-				<li><a href="{{site.baseurl}}/about/">About Us</a></li>
+				<li><a class="{% if page.url == '/thankyou/' %}current{% endif %}" href="{{site.baseurl}}/thankyou/">Thank you</a></li>
+				<li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About Us</a></li>
 			</ul>
 		</nav>
 	</header>

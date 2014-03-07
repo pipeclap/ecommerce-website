@@ -175,14 +175,16 @@ nav ul li a:hover {
 }
 }
 
-.current{
-  background-color: red;
-}
+
 
 @media only screen and (min-width: 35em){
 	
 	nav ul li a {
 	    font-size: 1.3rem;
+}
+
+.current{
+  background-color: red;
 }
 	
 }
