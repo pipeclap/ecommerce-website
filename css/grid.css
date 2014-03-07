@@ -5,6 +5,7 @@
 .grid{
 	border: 1px solid red;
 	overflow: hidden;
+	display: inline-block;
 }
 
 .unit{
