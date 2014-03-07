@@ -123,6 +123,7 @@ html {
 nav {
 	background-image: url(../images/soccerballs/bluebar.jpg);
 	background-repeat: no-repeat;
+  padding: 1rem 4rem 1rem;
 }
   
 nav ul {

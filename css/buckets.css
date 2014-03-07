@@ -1,7 +1,11 @@
-@charset "UTF-8";
-/* CSS Document */
+.banner{
+  background: #53520a url("../images/soccerballs/brazuca_banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 28rem 1rem 1rem;
+  text-align: center;
+  color: white;
+}
 
-.banner-img-home{
-	margin-left: 25px;
-	clear:both;
+.banner h1{
+  color: #fff;
 }

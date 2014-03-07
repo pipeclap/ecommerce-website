@@ -15,6 +15,9 @@
 </head>
 
 <body>
+
+
+
 	<header>
 		<input class="search" type=search results=5 name=s>
 		<img src="../images/logo/logo.svg" class="logo" alt="soccer balls.com logo">
@@ -28,6 +31,12 @@
 		</nav>
 	</header>
 
+		{% if page.showbanner %}
+			<div class="banner"
+	  			<h1>{{page.bannertext}}</h1>
+			</div>
+		{% endif %}
+		
 {{content}}
 
 	<footer>
