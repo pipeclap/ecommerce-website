@@ -14,7 +14,22 @@
 }
 
 .unit-s-1{
-	width: 100%;
+	width: 10%;
+}
+
+@media only screen and (min-width:25em){
+	
+	.unit-m-1-3{
+		width: 33.3333%;
+	}
+	
+	.unit-m-1{
+		width: 12%
+	}
+	
+	.unit-m-1-2{
+		width: 50%
+	}
 }
 
 @media only screen and (min-width:30em){
@@ -24,7 +39,7 @@
 	}
 	
 	.unit-m-1{
-		width: 100%
+		width: 12%
 	}
 	
 	.unit-m-1-2{
