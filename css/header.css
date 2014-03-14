@@ -185,13 +185,13 @@ nav ul li a:hover {
 }
 
 .current{
-  background-color: red;
+  background-color: #0297c0;
 }
 
 .banner{
   background: #53520a url("../images/soccerballs/brazuca_banner.jpg") no-repeat center center;
   background-size: cover;
-  padding: 28rem 1rem 1rem;
+  padding: 4rem 2rem 13rem;
   text-align: center;
   color: white;
   margin-top: 1rem;
