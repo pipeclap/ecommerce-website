@@ -1,25 +1,51 @@
 ---
 layout: default
-title: Dinosaurs
-meta: All the dinosaurs that ever existed in the world.
+title: shopbybrand
+meta: All the paper toy monsters that you can create
 ---
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
-		<h1>Dinosaurs</h1>
+
+<div class="grid"> 
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<h1>Shop By Brand</h1>
 	</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
-		<p>All the dinos jhnsdbvhjcvs</p>
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<p>Choose a Brand</p>
 	</div>
 </div>
 
+<ul>
+	{% for shopbybrand in site.pages %}
+		{% if shopbybrand.category == 'adidas' %}
+			<li>
+				<a href="{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{adidas.image}}" alt="">
+					{{shopbybrand.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
 
 <ul>
-	{% for dino in site.pages %}
-		{% if dino.category == 'dinosaur' %}
+	{% for shopbybrand in site.pages %}
+		{% if shopbybrand.category == 'puma' %}
 			<li>
-				<a href="{{dino.url}}">
-					<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
-					{{dino.name}}
+				<a href="{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{soccerballs.image}}" alt="">
+					{{shopbybrand.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for shopbybrand in site.pages %}
+		{% if shopbybrand.category == 'nike' %}
+			<li>
+				<a href="{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{soccerballs.image}}" alt="">
+					{{shopbybrand.name}}
 				</a>
 			</li>
 		{% endif %}
