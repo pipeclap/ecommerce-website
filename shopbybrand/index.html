@@ -1,5 +1,27 @@
 ---
 layout: default
+title: Dinosaurs
+meta: All the dinosaurs that ever existed in the world.
 ---
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
+		<h1>Dinosaurs</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
+		<p>All the dinos jhnsdbvhjcvs</p>
+	</div>
+</div>
 
-<h1>Adidas</h1>
+
+<ul>
+	{% for dino in site.pages %}
+		{% if dino.category == 'dinosaur' %}
+			<li>
+				<a href="{{dino.url}}">
+					<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+					{{dino.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
