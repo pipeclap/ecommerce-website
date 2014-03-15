@@ -2,7 +2,7 @@
 layout: shopbybrand
 category: adidas
 name: brazuca
-image: air-dinos/pteranodon.jpg
+image: soccerballs/brazucapromotion.jpg
 ---
 
 The tyrannosaurus is the most fierce of all dinosaurs!
