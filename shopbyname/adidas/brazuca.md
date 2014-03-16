@@ -9,7 +9,7 @@ Who’s the greatest soccer team on the planet? Who will bring the biggest prize
 
 Brazuca Official Match Ball [Buy it Now](http://www.adidas.ca/en/brazuca-official-match-ball/G73617_720.html)
 
-## Features
+##Features
 
 - High-end materials in the cover, backing and bladder for perfect on-field performance
 - Seamless surface for a more predictable trajectory, better touch and lower water uptake

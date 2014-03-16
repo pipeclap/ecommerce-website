@@ -113,7 +113,7 @@ html {
  }
  
  ul li:before {
- 	content: "◊ "; /* opt shift 9=small, opt 8= bigger, or put a special character from the compter*/
+ 	content: "·"; /* opt shift 9=small, opt 8= bigger, or put a special character from the compter*/
  	color: #424242;
  	position: absolute; /* To change the position of bullets*/ 	
 	text-align: right;
