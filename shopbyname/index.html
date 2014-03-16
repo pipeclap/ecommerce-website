@@ -1,25 +1,25 @@
 ---
 layout: default
-title: shopbybrand
-meta: All the paper toy monsters that you can create
+title: shopbyname
+meta: All the soccer ball you want
 ---
 
 <div class="grid"> 
 	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
-		<h1>Shop By Brand</h1>
+		<h1>Shop By Name</h1>
 	</div>
 	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
-		<p>Choose a Brand</p>
+		<p>Choose a Name</p>
 	</div>
 </div>
 
 <ul>
-	{% for shopbybrand in site.pages %}
-		{% if shopbybrand.category == 'adidas' %}
+	{% for shopbyname in site.pages %}
+		{% if shopbyname.category == 'adidas' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{shopbyname.url}}">
 					<img src="{{site.baseurl}}/images/{{adidas.image}}" alt="">
-					{{shopbybrand.name}}
+					{{shopbyname.name}}
 				</a>
 			</li>
 		{% endif %}
@@ -27,12 +27,12 @@ meta: All the paper toy monsters that you can create
 </ul>
 
 <ul>
-	{% for shopbybrand in site.pages %}
-		{% if shopbybrand.category == 'puma' %}
+	{% for shopbyname in site.pages %}
+		{% if shopbyname.category == 'puma' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{shopbyname.url}}">
 					<img src="{{site.baseurl}}/images/{{soccerballs.image}}" alt="">
-					{{shopbybrand.name}}
+					{{shopbyname.name}}
 				</a>
 			</li>
 		{% endif %}
@@ -40,12 +40,12 @@ meta: All the paper toy monsters that you can create
 </ul>
 
 <ul>
-	{% for shopbybrand in site.pages %}
-		{% if shopbybrand.category == 'nike' %}
+	{% for shopbyname in site.pages %}
+		{% if shopbyname.category == 'nike' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{shopbyname.url}}">
 					<img src="{{site.baseurl}}/images/{{soccerballs.image}}" alt="">
-					{{shopbybrand.name}}
+					{{shopbyname.name}}
 				</a>
 			</li>
 		{% endif %}

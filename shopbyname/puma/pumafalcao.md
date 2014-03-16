@@ -1,8 +1,8 @@
 ---
-layout: shopbybrand
-category: nike
-name: Cr7
-image: soccerballs/nikecr7.jpg
+layout: shopbyname
+category: puma
+name: evoPOWER6
+image: soccerballs/pumasoccerball.jpg
 ---
 
 The tyrannosaurus is the most fierce of all dinosaurs!

@@ -1,8 +1,8 @@
 ---
-layout: shopbybrand
-category: adidas
-name: brazuca
-image: adidas/brazuca.jpg
+layout: shopbyname
+category: nike
+name: Cr7
+image: soccerballs/nikecr7.jpg
 ---
 
 The tyrannosaurus is the most fierce of all dinosaurs!
