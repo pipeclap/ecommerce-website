@@ -1,8 +1,8 @@
 ---
-layout: shopbyname
+layout: shopbybrand
 category: adidas
-name: Speedcell
-image: adidas/speedcell.jpg
+name: Predator
+image: adidas/predator.jpg
 ---
 
 Who’s the greatest soccer player on the planet? MESSI
@@ -16,4 +16,4 @@ Who’s the greatest soccer player on the planet? MESSI
 - Highest FIFA rating: Ball passed FIFA tests on circumference, weight, rebound and water absorption
 - 100% polyurethane
 
-![Brazuca 2014](http://stuffpoint.com/adidas/image/253675-adidas-adidas-pes-ball.jpg)
+![Brazuca 2014](http://www.elverys.ie/images/productImages/Zoom/adidas-predator-glider-ball-1040828.jpg)

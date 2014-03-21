@@ -1,5 +1,5 @@
 ---
-layout: shopbyname
+layout: shopbybrand
 category: nike
 name: Barcelona
 image: nike/barcelona.jpg

@@ -16,11 +16,11 @@
 <body>
 	<header>
 		<input class="search" type=search results=5 name=s>
-		<img src="../images/logo/logo.svg" class="logo" alt="soccer-balls.com logo">
+		<img src="{{site.baseurl}}/images/logo/logo.svg" class="logo" alt="soccer-balls.com logo">
 		<nav>
 			<ul class="mega">
 				<li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a> 
-				<li><a class="{% if page.url == '/shopbyname/' %}current{% endif %}"href="{{site.baseurl}}/shopbyname/">Shop By Name</a></li>
+				<li><a class="{% if page.url == '/shopbybrand/' %}current{% endif %}"href="{{site.baseurl}}/shopbybrand/">Shop By Brand</a></li>
 				<li><a class="{% if page.url == '/shopbysize/' %}current{% endif %}" href="{{site.baseurl}}/shopbysize/">Shop By Size</a></li>
 				<li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About Us</a></li>
 			</ul>

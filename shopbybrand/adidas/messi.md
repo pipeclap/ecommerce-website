@@ -1,13 +1,13 @@
 ---
-layout: shopbyname
+layout: shopbybrand
 category: adidas
-name: Predator
-image: adidas/predator.jpg
+name: Messi
+image: adidas/messi.jpg
 ---
 
 Who’s the greatest soccer player on the planet? MESSI
 
-[Buy it Now](http://www.adidas.com/us/product/mens-soccer-predator-glider-ball/AK053?cid=G83967)
+[Buy it Now](http://www.gmsports.co.za/image/cache/data/Balls/ADIDAS-MESSI-BALL-G83961-600x600.jpg)
 
 ##Features
 
@@ -16,4 +16,4 @@ Who’s the greatest soccer player on the planet? MESSI
 - Highest FIFA rating: Ball passed FIFA tests on circumference, weight, rebound and water absorption
 - 100% polyurethane
 
-![Brazuca 2014](http://www.elverys.ie/images/productImages/Zoom/adidas-predator-glider-ball-1040828.jpg)
+![Brazuca 2014](http://www.gmsports.co.za/image/cache/data/Balls/ADIDAS-MESSI-BALL-G83961-600x600.jpg)

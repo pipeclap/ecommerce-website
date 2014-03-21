@@ -1,8 +1,8 @@
 ---
-layout: shopbyname
+layout: shopbybrand
 category: adidas
 name: Brazuca
-image: adidas/brazuca.jpg
+image: adidas/brazuca2.jpg
 ---
 
 Who’s the greatest soccer team on the planet? Who will bring the biggest prize in soccer back home to their native soil? It all comes down to two teams, one match and one ball. This ball. At the center of Brazil 2014 is the Brazuca, the official match ball of the biggest sporting event on the planet, made from premium materials and rigorously tested to receive the highest FIFA ratings for feel, durability and flight.

@@ -1,5 +1,5 @@
 ---
-layout: shopbyname
+layout: shopbybrand
 category: nike
 name: Premier League
 image: nike/premier.jpg

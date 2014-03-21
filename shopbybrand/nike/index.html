@@ -1,0 +1,27 @@
+---
+layout: default
+title: shopbybrand
+meta: All the soccer ball you want
+---
+
+<div class="grid"> 
+	<div class="unit unit-s-1 unitl-1">
+		<h1>Shop By Brand</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<p>All Adidas, Puma and Nike soccerballs</p>
+	</div>
+</div>
+
+<ul>
+	{% for shopbybrand in site.pages %}
+		{% if shopbybrand.category == 'nike' %}
+			<li>
+				<a href="{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="">
+					{{shopbybrand.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
