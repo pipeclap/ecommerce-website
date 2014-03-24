@@ -15,8 +15,9 @@ Who’s the greatest soccer team on the planet? Who will bring the biggest prize
 - Highest FIFA rating: Ball passed FIFA tests on circumference, weight, rebound and water absorption
 - 100% polyurethane
 
+
 <div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
-	<a class= "btn mega" href="#">Shop Now </a>
+	<a class="btn mega {% if page.url == '/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Shop Now</a>
 </div>
 
 ![Brazuca 2014](http://demandware.edgesuite.net/sits_pod14/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-CA-Site/Sites-adidas-products/en_CA/v1394856469775/zoom/G73617_D_Torso_B2CCat.jpg?sw=440&sh=440&sm=fit)
