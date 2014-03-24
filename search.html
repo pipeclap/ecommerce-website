@@ -1,12 +1,28 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Search Field</title>
-</head>
-<form method="get" action="{{site.baseurl}}/search/">
-	<input type=search results=5 name=s>
-</form>
-<body>
-</body>
-</html>
+---
+layout: default
+title: search
+name: brazuca
+meta: All the soccer ball you want
+---
+<div class="grid"> 
+	<div class="unit unit-s-1 unitl-1">
+		<h1>Shop By Brand</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<p>All Adidas, Puma and Nike soccerballs</p>
+	</div>
+</div>
+
+<ul>
+	{% for shopbybrand in site.pages %}
+		{% if shopbybrand.category == 'adidas' %}
+			<li>
+				<a href="{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="">
+					{{shopbybrand.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+

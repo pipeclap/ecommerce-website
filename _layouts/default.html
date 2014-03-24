@@ -15,7 +15,9 @@
 
 <body>
 	<header>
-		<input class="search" type=search results=5 name=s>
+		<form method="get" action="{{site.baseurl}}/search/">
+			<input type=search results=5 name=s>
+		</form>
 		<img src="{{site.baseurl}}/images/logo/logo.svg" class="logo" alt="soccer-balls.com logo">
 		<nav>
 			<ul class="mega">
