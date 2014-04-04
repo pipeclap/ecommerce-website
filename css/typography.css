@@ -43,6 +43,12 @@ html {
  	color: #827B7B;
  	border-bottom-color: rgb(13,18,179);
  }
+
+ a:hover,
+ a:active{
+  /*Its okay to remove the focus rectangle for mouse states*/
+  
+ }
  
 
  h1, h2, h3, h4, h5, h6,
