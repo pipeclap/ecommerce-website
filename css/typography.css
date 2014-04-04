@@ -47,9 +47,13 @@ html {
  a:hover,
  a:active{
   /*Its okay to remove the focus rectangle for mouse states*/
-  
+  outline: none;
  }
  
+ a:focus{
+  /* The focus rectangle MUST ALWAYS be visible for keyboards states*/
+  outline: 3px solid #fff;
+ }
 
  h1, h2, h3, h4, h5, h6,
  p, ul, ol, dl,
