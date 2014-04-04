@@ -166,7 +166,6 @@ nav ul li a:hover {
 @media only screen and (min-width: 25em){
 	.logo{
 		width: 15rem;
-		margin-left: -10rem;
 		float: left;
 	}
 	
