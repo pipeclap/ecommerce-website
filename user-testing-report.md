@@ -30,7 +30,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 - {She want me to work more on the media queries}
 - {place better the items.}
-
+- {fix the phone view on Shop by Brand the items are to big}
 ---
 
 ## Trends
