@@ -30,7 +30,7 @@ meta: All the soccer ball you want
 	{% for shopbybrand in site.pages %}
 		{% if shopbybrand.category == 'puma' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{site.baseurl}}{{shopbybrand.url}}"
 					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-puma">
 					{{shopbybrand.name}}
 				</a>
@@ -43,7 +43,7 @@ meta: All the soccer ball you want
 	{% for shopbybrand in site.pages %}
 		{% if shopbybrand.category == 'nike' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{site.baseurl}}{{shopbybrand.url}}"
 					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-nike">
 					{{shopbybrand.name}}
 				</a>
