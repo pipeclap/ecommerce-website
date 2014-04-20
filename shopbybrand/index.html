@@ -17,7 +17,7 @@ meta: All the soccer ball you want
 	{% for shopbybrand in site.pages %}
 		{% if shopbybrand.category == 'adidas' %}
 			<li>
-				<a href="{{shopbybrand.url}}">
+				<a href="{{site.baseurl}}{{shopbybrand.url}}">
 					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-adidas">
 					{{shopbybrand.name}}
 				</a>
