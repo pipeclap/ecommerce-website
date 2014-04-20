@@ -7,7 +7,7 @@ image: adidas/speedcell.jpg
 
 Who’s the greatest soccer player on the planet? MESSI
 
-[Buy it Now](http://www.adidas.com/us/product/mens-soccer-predator-glider-ball/AK053?cid=G83967)
+[More Info.](http://www.adidas.com/us/product/mens-soccer-predator-glider-ball/AK053?cid=G83967)
 
 ##Features
 

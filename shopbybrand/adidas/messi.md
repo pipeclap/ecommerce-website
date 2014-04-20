@@ -7,7 +7,7 @@ image: adidas/messi.jpg
 
 Who’s the greatest soccer player on the planet? MESSI
 
-[Buy it Now](http://www.gmsports.co.za/image/cache/data/Balls/ADIDAS-MESSI-BALL-G83961-600x600.jpg)
+[More info.](http://www.gmsports.co.za/image/cache/data/Balls/ADIDAS-MESSI-BALL-G83961-600x600.jpg)
 
 ##Features
 
