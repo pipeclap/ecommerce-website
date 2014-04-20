@@ -16,4 +16,8 @@ Who’s the greatest soccer player on the planet? MESSI
 - Highest FIFA rating: Ball passed FIFA tests on circumference, weight, rebound and water absorption
 - 100% polyurethane
 
+<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
+	<a class="btn mega {% if page.url == '/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Shop Now</a>
+</div>
+
 ![Brazuca 2014](http://stuffpoint.com/adidas/image/253675-adidas-adidas-pes-ball.jpg)
