@@ -1,7 +1,7 @@
 ---
 layout: shopbybrand
 category: adidas
-name: brazuca
+name: Brazuca
 image: adidas/brazuca2.jpg
 ---
 
