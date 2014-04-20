@@ -1,0 +1,13 @@
+/*TEAM*/
+Designer/Developer: Lorena Franco
+Twitter: @lorefranko
+Location: Ottawa,Ontario, Canada
+
+/*THANKS*/
+Thanks to my teacher Tiffany for passing us her knowledge
+
+/*SITE*/
+Last update: 2013/6/12
+Standards: HTML5, CSS3
+Components: Modernizer, Jquery, etc.
+Software: Adobe, Livereload, Sublime Text 2
