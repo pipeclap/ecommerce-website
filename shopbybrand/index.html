@@ -3,6 +3,13 @@ layout: default
 title: shopbybrand
 meta: All the soccer ball you want
 ---
+<div role="navigation">
+	<ul class="mega">
+		<li><a class="{% if page.url == '/shopbybrand/adidas/' %}current{% endif %}" href="{{site.baseurl}}/shopbybrand/adidas/">Adidas</a> 
+		<li><a class="{% if page.url == '/shopbybrand/nike/' %}current{% endif %}"href="{{site.baseurl}}/shopbybrand/nike/">Nike</a></li>
+		<li><a class="{% if page.url == '/shopbybrand/puma/' %}current{% endif %}" href="{{site.baseurl}}/shopbybrand/puma/">Puma</a></li>
+	</ul>
+</div>
 
 <div class="grid"> 
 	<div class="unit unit-s-1 unitl-1">
@@ -28,10 +35,10 @@ meta: All the soccer ball you want
 
 <ul>
 	{% for shopbybrand in site.pages %}
-		{% if shopbybrand.category == 'puma' %}
+		{% if shopbybrand.category == 'nike' %}
 			<li>
-				<a href="{{site.baseurl}}{{shopbybrand.url}}"
-					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-puma">
+				<a href="{{site.baseurl}}{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-nike">
 					{{shopbybrand.name}}
 				</a>
 			</li>
@@ -41,13 +48,14 @@ meta: All the soccer ball you want
 
 <ul>
 	{% for shopbybrand in site.pages %}
-		{% if shopbybrand.category == 'nike' %}
+		{% if shopbybrand.category == 'puma' %}
 			<li>
-				<a href="{{site.baseurl}}{{shopbybrand.url}}"
-					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-nike">
+				<a href="{{site.baseurl}}{{shopbybrand.url}}">
+					<img src="{{site.baseurl}}/images/{{shopbybrand.image}}" alt="Shop by brand-puma">
 					{{shopbybrand.name}}
 				</a>
 			</li>
 		{% endif %}
 	{% endfor %}
 </ul>
+
